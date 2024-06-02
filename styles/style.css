@@ -24,6 +24,7 @@
   background-position: center top;
   background-size: 4px;
   background-attachment: fixed;
+  font-variation-settings: 'wght' var(--main-weight-card);
 }
 
 .header {
@@ -138,7 +139,7 @@ row-gap: 14px;
 
 .card-heading {
 padding: 4px 10px;
-font-weight: var(--main-weight-card-title);
+font-variation-settings: 'wght' var(--main-weight-card-title);
 line-height: 21.8px;
 font-size: inherit;
 }
@@ -150,7 +151,6 @@ font-size: inherit;
 
 .card-text {
   padding: 27px 25px 25px 25px;
-  font-weight: var(--main-weight-card);
   line-height: 21px;
   font-size: inherit;
 }
