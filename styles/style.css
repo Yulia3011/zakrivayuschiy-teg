@@ -236,6 +236,8 @@ filter: contrast(120%);
   font-size: 14px;
   line-height: 12.6px;
   text-align: left;
+  color: var(--button-animaton);
+  mix-blend-mode: difference;
 }
 
 .save-button {
@@ -366,11 +368,6 @@ filter: contrast(120%);
   cursor: pointer;
   z-index: 1;
   transition: color 1s ease-in-out;
-}
-
-.button__text {
-  color: var(--button-animaton);
-  mix-blend-mode: difference;
 }
 
 .save-icon {
