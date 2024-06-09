@@ -150,6 +150,7 @@
 
 .image-block {
   outline: 2px solid var(--accent-color);
+  position: relative;
 }
 
 .sepia {
@@ -182,10 +183,6 @@
 
 .brightness-saturate {
   filter: brightness(120%) saturate(150%);
-}
-
-.image-block {
-  position: relative;
 }
 
 .tag {
