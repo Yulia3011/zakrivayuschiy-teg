@@ -1,1 +1,12 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+.page {
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', sans-serif;
+    --main-weight-card: 400;
+    --main-weight-card-title: 700;
+    --background-color: white;
+    --accent-color: #000000;
+    --gradient-1: repeating-linear-gradient(#d3d3d3 0px 1px, transparent 1px 2px), repeating-linear-gradient(90deg, #d3d3d3 0px 1px, transparent 1px 2px), 
+    linear-gradient(180deg, #1a1a1a, #e7e7e7);
+    --heart-color: #FF0000;
+    --button-animaton: white;
+}
